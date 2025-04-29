@@ -1,3 +1,4 @@
+import 'package:booklyapp/features/splash/view_models/views/splash_view.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -15,8 +16,8 @@ class BooklyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      home:
+    return MaterialApp(
+      home: SplashView(),
     );
   }
 }
